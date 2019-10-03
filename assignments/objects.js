@@ -10,24 +10,19 @@
 // 5, adaine5@samsung.com, Antonietta, F
 
 // Example format of an intern object: 1, examples@you.edu, Example, F
-const example = {
-  id: 0,
-  name: "Example",
-  email: "examples@you.edu",
-  gender: "F",
-}
+// const example = {
+//   id: 0,
+//   name: "Example",
+//   email: "examples@you.edu",
+//   gender: "F",
+// }
 
 // Write your intern objects here:
 
-
-// ==== Challenge 2: Reading Object Data ==== 
-// Once your objects are created, log out the following requests from HR into the console:
-
 // Mitzi's name
-
-const Mizzy = {
+const mitzi = {
   id: 1,
-  name: "Mizzy",
+  name: "Mitzi",
   email: "mmelloy0@psu.edu",
   gender: "F",
 }
@@ -43,7 +38,6 @@ const kennan = {
 
 
 // Keven's email
-
 const keven = {
   id: 3,
   name: "Keven",
@@ -53,8 +47,7 @@ const keven = {
 
 
 // Gannie's name
-
-const Gannie = {
+const gannie = {
   id: 4,
   name: "Gannie",
   email: "gmartinson3@illinois.edu",
@@ -63,18 +56,36 @@ const Gannie = {
 
 
 // Antonietta's Gender
-
-const Antoinettas = {
+const antonietta = {
   id: 5,
-  name: "Antoinettas",
+  name: "Antoinetta",
   email: "adaine5@samsung.com",
   gender: "F",
-
 }
+
+// ==== Challenge 2: Reading Object Data ==== 
+// Once your objects are created, log out the following requests from HR into the console:
+
+// Mitzi's Name
+console.log(mitzi.name);
+
+// Kennan's ID
+console.log(kennan.id);
+
+//Keven's Email
+console.log(keven.email);
+
+// Gannie's Name
+console.log(gannie.name);
+
+// Antonietta's Gender
+console.log(antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
+
 // console.log(kennan.speak());
+
 console.log(`Hello my name is ${kennan.name}`)
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
@@ -82,8 +93,8 @@ console.log(`Hello my name is ${kennan.name}`)
 
 function multiplyNums (num1, num2) {
   return num1 * num2;
-
 }
+
 console.log(multiplyNums(3,4));
 
 
